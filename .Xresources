@@ -1,0 +1,163 @@
+!!Scaling
+Xft.dpi: 115
+
+!Setting clipboard
+XTerm*selectToClipboard: true
+
+! These might also be useful depending on your monitor and personal preference:
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+#include "xterm-themes/Xresources-themes/iterm-WarmNeon.Xresources"
+
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+*customization: -color
+XTerm*termName: xterm-256color
+!xterm*faceName: Fira Code
+xterm*faceName: Monego 
+!xterm*faceName: Kawkab
+!xterm*faceName: Source Code Pro
+!xterm*faceName: JetBrains Mono
+!xterm*faceName: Lekton
+!xterm*faceName: Camingo Code
+xterm*faceSize: 12
+xterm*renderFont: true
+
+!#define S_base03        #002b36
+!#define S_base02        #073642
+!#define S_base01        #586e75
+!#define S_base00        #657b83
+!#define S_base0         #839496
+!#define S_base1         #93a1a1
+!#define S_base2         #eee8d5
+!#define S_base3         #fdf6e3
+
+!*fadeColor:             S_base03
+!*cursorColor:           S_base1
+!*pointerColorBackground:S_base01
+!*pointerColorForeground:S_base1
+
+
+!! Theme Five, credits to http://web.archive.org/web/20090130061234/http://phraktured.net/terminal-colors/
+!*background: rgb:ad/aa/ad
+!*foreground: rgb:00/00/00
+!*color0:     rgb:00/00/00
+!*color1:     rgb:64/0f/19
+!*color2:     rgb:63/79/6b
+!*color3:     rgb:ad/71/42
+!*color4:     rgb:4f/4f/89
+!*color5:     rgb:b2/5c/7c
+!*color6:     rgb:52/75/6b
+!*color7:     rgb:ad/aa/ad
+!*color8:     rgb:52/55/52
+!*color9:     rgb:a5/61/63
+!*color10:    rgb:ce/c2/63
+!*color11:    rgb:73/ae/70
+!*color12:    rgb:36/70/9f
+!*color13:    rgb:aa/82/9c
+!*color14:    rgb:51/89/89
+!*color15:    rgb:ff/ff/ef
+
+!!Theme Seven, credits to http://web.archive.org/web/20090130061234/http://phraktured.net/terminal-colors/
+!*background: rgb:67/67/67
+!*foreground: rgb:ff/ff/ff
+!*color0:     rgb:00/00/00
+!*color1:     rgb:bf/46/46
+!*color2:     rgb:67/b2/5f
+!*color3:     rgb:cf/c4/4e
+!*color4:     rgb:51/60/83
+!*color5:     rgb:ca/6e/ff
+!*color6:     rgb:92/b2/f8
+!*color7:     rgb:d5/d5/d5
+!*color8:     rgb:00/00/00
+!*color9:     rgb:f4/8a/8a
+!*color10:    rgb:a5/d7/9f
+!*color11:    rgb:e1/da/84
+!*color12:    rgb:a2/bb/ff
+!*color13:    rgb:e2/b0/ff
+!*color14:    rgb:ba/cd/f8
+!*color15:    rgb:d5/d5/d5
+
+!Theme Two, credits to http://web.archive.org/web/20090130061234/http://phraktured.net/terminal-colors/
+!*background: rgb:00/00/00
+!*foreground: rgb:7f/7f/7f
+!*color0:     rgb:00/00/00
+!*color1:     rgb:9e/18/28
+!*color2:     rgb:ae/ce/92
+!*color3:     rgb:96/8a/38
+!*color4:     rgb:41/41/71
+!*color5:     rgb:96/3c/59
+!*color6:     rgb:41/81/79
+!*color7:     rgb:be/be/be
+!*color8:     rgb:66/66/66
+!*color9:     rgb:cf/61/71
+!*color10:    rgb:c5/f7/79
+!*color11:    rgb:ff/f7/96
+!*color12:    rgb:41/86/be
+!*color13:    rgb:cf/9e/be
+!*color14:    rgb:71/be/be
+!*color15:    rgb:ff/ff/ff
+
+!!Theme Four
+!*background: rgb:00/00/00
+!*foreground: rgb:ff/ff/ff
+!*color0:     rgb:00/00/00
+!*color1:     rgb:d3/62/65
+!*color2:     rgb:ae/ce/91
+!*color3:     rgb:e7/e1/8c
+!*color4:     rgb:7a/7a/b0
+!*color5:     rgb:96/3c/59
+!*color6:     rgb:41/81/79
+!*color7:     rgb:be/be/be
+!*color8:     rgb:66/66/66
+!*color9:     rgb:ef/81/71
+!*color10:    rgb:e5/f7/79
+!*color11:    rgb:ff/f7/96
+!*color12:    rgb:41/86/be
+!*color13:    rgb:ef/9e/be
+!*color14:    rgb:71/be/be
+!*color15:    rgb:ff/ff/ff
+
+!Theme Ten
+!*background: rgb:1a/1a/1a
+!*foreground: rgb:d6/d6/d6
+!*color0:     rgb:00/00/00
+!*color1:     rgb:98/56/5e
+!*color2:     rgb:66/82/5d
+!*color3:     rgb:96/91/76
+!*color4:     rgb:4d/65/85
+!*color5:     rgb:96/73/95
+!*color6:     rgb:5f/7f/7b
+!*color7:     rgb:b3/b3/b3
+!*color8:     rgb:73/73/73
+!*color9:     rgb:cf/a3/a9
+!*color10:    rgb:ca/f7/bb
+!*color11:    rgb:ff/f8/bc
+!*color12:    rgb:83/a3/be
+!*color13:    rgb:bb/a9/cf
+!*color14:    rgb:96/cc/cc
+!*color15:    rgb:ff/ff/ff
+
+!Theme Thirteen
+!*background: rgb:00/00/00
+!*foreground: rgb:aa/aa/aa
+!*color0:     rgb:00/00/00
+!*color1:     rgb:9e/18/28
+!*color2:     rgb:ae/ce/92
+!*color3:     rgb:96/8a/38
+!*color4:     rgb:41/41/71
+!*color5:     rgb:96/3c/59
+!*color6:     rgb:7f/9f/7f
+!*color7:     rgb:be/be/be 
+!*color8:     rgb:66/66/66
+!*color9:     rgb:cf/61/71
+!*color10:    rgb:af/c5/af
+!*color11:    rgb:f0/df/af
+!*color12:    rgb:8e/9f/bc
+!*color13:    rgb:dc/a3/a3
+!*color14:    rgb:95/c1/c5
+!*color15:    rgb:ff/ff/ff
+
