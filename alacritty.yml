@@ -1,0 +1,257 @@
+font:
+  normal:
+    family: Monego 
+    style: Regular
+
+  bold:
+    family: Monego
+    style: Bold
+
+  italic:
+    family: Monego
+    style: Italic
+
+  bold_italic:
+    family: Monego
+    style: Bold Italic
+
+  size: 10
+
+background_opacity: 0.8
+
+# # Colors (Hyper)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#000000'
+#     foreground: '#ffffff'
+#   cursor:
+#     text: '#F81CE5'
+#     cursor: '#ffffff'
+
+#   # Normal colors
+#   normal:
+#     black:   '#000000'
+#     red:     '#fe0100'
+#     green:   '#33ff00'
+#     yellow:  '#feff00'
+#     blue:    '#0066ff'
+#     magenta: '#cc00ff'
+#     cyan:    '#00ffff'
+#     white:   '#d0d0d0'
+
+#   # Bright colors
+#   bright:
+#     black:   '#808080'
+#     red:     '#fe0100'
+#     green:   '#33ff00'
+#     yellow:  '#feff00'
+#     blue:    '#0066ff'
+#     magenta: '#cc00ff'
+#     cyan:    '#00ffff'
+#     white:   '#FFFFFF'
+
+# # Colors (New Moon)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#2D2D2D'
+#     foreground: '#B3B9C5'
+#   # Normal colors
+#   normal:
+#     black: '#2D2D2D'
+#     red: '#F2777A'
+#     green: '#92D192'
+#     yellow: '#FFD479'
+#     blue: '#6AB0F3'
+#     magenta: '#E1A6F2'
+#     cyan: '#76D4D6'
+#     white: '#B3B9C5'
+#   # Bright colors
+#   bright:
+#     black: '#777C85'
+#     red: '#F2777A'
+#     green: '#76D4D6'
+#     yellow: '#FFEEA6'
+#     blue: '#6AB0F3'
+#     magenta: '#E1A6F2'
+#     cyan: '#76D4D6'
+#     white: '#FFFFFF'
+
+
+# # Colors (Panda)
+# colors:
+#   primary:
+#     background: '#292A2B'
+#     foreground: '#E6E6E6'
+
+#   normal:
+#     black:   '#292A2B'
+#     red:     '#FF2C6D'
+#     green:   '#19f9d8'
+#     yellow:  '#FFB86C'
+#     blue:    '#45A9F9'
+#     magenta: '#FF75B5'
+#     cyan:    '#67d3c2'
+#     orange:  '#B084EB'
+#     white:   '#E6E6E6'
+#   bright:
+#     black:   '#292A2B'
+#     red:     '#FF2C6D'
+#     green:   '#19f9d8'
+#     yellow:  '#ffcc95'
+#     blue:    '#6FC1FF'
+#     magenta: '#FF9AC1'
+#     cyan:    '#67d3c2'
+#     white:   '#ffffff'
+
+# # Colors (Ayu Mirage)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#202734'
+#     foreground: '#CBCCC6'
+
+#   # Normal colors
+#   normal:
+#     black: '#191E2A'
+#     red: '#FF3333'
+#     green: '#BAE67E'
+#     yellow: '#FFA759'
+#     blue: '#73D0FF'
+#     magenta: '#FFD580'
+#     cyan: '#95E6CB'
+#     white: '#C7C7C7'
+
+#   # Bright colors
+#   bright:
+#     black: '#686868'
+#     red: '#F27983'
+#     green: '#A6CC70'
+#     yellow: '#FFCC66'
+#     blue: '#5CCFE6'
+#     magenta: '#FFEE99'
+#     cyan: '#95E6CB'
+#     white: '#FFFFFF'
+
+# Colors (Blood Moon)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#10100E'
+#     foreground: '#C6C6C4'
+
+#   # Normal colors
+#   normal:
+#     black:   '#10100E'
+#     red:     '#C40233'
+#     green:   '#009F6B'
+#     yellow:  '#FFD700'
+#     blue:    '#0087BD'
+#     magenta: '#9A4EAE'
+#     cyan:    '#20B2AA'
+#     white:   '#C6C6C4'
+
+#   # Bright colors
+#   bright:
+#     black:   '#696969'
+#     red:     '#FF2400'
+#     green:   '#03C03C'
+#     yellow:  '#FDFF00'
+#     blue:    '#007FFF'
+#     magenta: '#FF1493'
+#     cyan:    '#00CCCC'
+#     white:   '#FFFAFA'
+
+# Colors (Iceberg Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#161821'
+    foreground: '#d2d4de'
+
+  # Normal colors
+  normal:
+    black:   '#161821'
+    red:     '#e27878'
+    green:   '#b4be82'
+    yellow:  '#e2a478'
+    blue:    '#84a0c6'
+    magenta: '#a093c7'
+    cyan:    '#89b8c2'
+    white:   '#c6c8d1'
+
+  # Bright colors
+  bright:
+    black:   '#6b7089'
+    red:     '#e98989'
+    green:   '#c0ca8e'
+    yellow:  '#e9b189'
+    blue:    '#91acd1'
+    magenta: '#ada0d3'
+    cyan:    '#95c4ce'
+    white:   '#d2d4de'
+
+# # Colors (Oceanic Next)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#1b2b34'
+#     foreground: '#d8dee9'
+
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '#1b2b34'
+#     cursor: '#ffffff'
+
+#   # Normal colors
+#   normal:
+#     black:   '#343d46'
+#     red:     '#EC5f67'
+#     green:   '#99C794'
+#     yellow:  '#FAC863'
+#     blue:    '#6699cc'
+#     magenta: '#c594c5'
+#     cyan:    '#5fb3b3'
+#     white:   '#d8dee9'
+
+#   # Bright colors
+#   bright:
+#     black:   '#343d46'
+#     red:     '#EC5f67'
+#     green:   '#99C794'
+#     yellow:  '#FAC863'
+#     blue:    '#6699cc'
+#     magenta: '#c594c5'
+#     cyan:    '#5fb3b3'
+#     white:   '#d8dee9'
+
+
+# # Colors (Tomorrow Night Bright)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#000000'
+#     foreground: '#eaeaea'
+
+#   # Normal colors
+#   normal:
+#     black:   '#000000'
+#     red:     '#d54e53'
+#     green:   '#b9ca4a'
+#     yellow:  '#e6c547'
+#     blue:    '#7aa6da'
+#     magenta: '#c397d8'
+#     cyan:    '#70c0ba'
+#     white:   '#424242'
+
+#   # Bright colors
+#   bright:
+#     black:   '#666666'
+#     red:     '#ff3334'
+#     green:   '#9ec400'
+#     yellow:  '#e7c547'
+#     blue:    '#7aa6da'
+#     magenta: '#b77ee0'
+#     cyan:    '#54ced6'
+#     white:   '#2a2a2a'
