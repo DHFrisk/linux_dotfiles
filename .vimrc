@@ -40,10 +40,15 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+Plug 'rhysd/vim-clang-format'
+Plug 'prettier/vim-prettier',{
+            \ 'do': 'yarn install',
+            \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html']}
 "Themes plugins
 Plug 'sonph/onehalf', { 'rtp':'vim'}
 Plug 'morhetz/gruvbox'
-
+Plug 'ycm-core/YouCompleteMe'
+Plug 'dgraham/vim-eslint'
 "Plugins for PHP
 Plug 'StanAngeloff/php.vim'
 call plug#end()
@@ -66,6 +71,12 @@ syntax on
 "indentLine Plugin
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
+"prettier -must install it first via npm-
+"let g:prettier#autoformat_require_pragma = 0
+"let g:prettier#exec_cmd_async = 1
+"autocmd FileType javascript set formatprg=prettier\ --stdin
+"autocmd BufWritePre *.js :normal gggqG
+
 "Google code format Plugin
 augroup autoformat_settings
   autocmd FileType bzl AutoFormatBuffer buildifier
@@ -80,3 +91,7 @@ augroup autoformat_settings
   autocmd FileType rust AutoFormatBuffer rustfmt
   autocmd FileType vue AutoFormatBuffer prettier
 augroup END
+
+if &term == "alacritty"        
+  let &term = "xterm-256color"
+endif
