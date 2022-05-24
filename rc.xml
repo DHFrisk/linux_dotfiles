@@ -34,7 +34,7 @@
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is, 'Primary' - only on the primary monitor -->
-    <primaryMonitor>1</primaryMonitor>
+    <primaryMonitor>Active</primaryMonitor>
     <!-- The monitor where Openbox should place popup dialogs such as the
        focus cycling popup, or the desktop switch popup.  It can be an index
        from 1, specifying a particular monitor.  Or it can be one of the
@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Nightmare-03</name>
+    <name>Adapta-Nokto</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,17 +57,17 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Cantarell</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>12</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Cantarell</name>
-      <size>10</size>
+      <name>sans</name>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -75,7 +75,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Cantarell</name>
+      <name>sans</name>
       <size>13</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -84,7 +84,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Cantarell</name>
+      <name>sans</name>
       <size>13</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -93,7 +93,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Cantarell</name>
+      <name>sans</name>
       <size>13</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -102,7 +102,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Cantarell</name>
+      <name>sans</name>
       <size>13</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -259,11 +259,32 @@
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
     </keybind>
-    <keybind key="A-space">
+    <!-- keybinds for volume/brightness -->
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%+</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%-</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
+      </action>
+    </keybind>
+    <!-- <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
       </action>
-    </keybind>
+    </keybind> -->
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -292,17 +313,6 @@
           <action name="Raise"/>
           <action name="Unshade"/>
         </finalactions>
-      </action>
-    </keybind>
-    <!-- Keybindings for brighness -->
-    <keybind key="XF86MonBrightnessUp">
-      <action name="Execute">
-        <command>xbright +1000</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessDown">
-      <action name="Execute">
-        <command>xbright -1000</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
@@ -335,6 +345,32 @@
         </startupnotify>
         <command>kfmclient openProfile filemanagement</command>
       </action>
+    </keybind>
+    <!-- move/resize window to the left half of screen via winkey+left arrow -->
+    <keybind key="W-Left">
+      <action name="Unmaximize"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <!-- move/resize window to the right half of screen via winkey+right arrow -->
+    <keybind key="W-Right">
+      <action name="Unmaximize"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
+    <!--<keybind key="W-Down"> 
+        <action name="ToggleMaximizeVert"/>
+    </keybind>-->
+    <!-- maximize/unmaximize current window via winkey+up -->
+    <keybind key="W-Up">
+      <action name="ToggleMaximizeFull"/>
+      <!-- action name="ToggleFullscreen"/ -->
     </keybind>
   </keyboard>
   <mouse>
