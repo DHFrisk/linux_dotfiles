@@ -1,6 +1,6 @@
 "set number
 filetype plugin indent on
-set clipboard=unnamed
+"set clipboard=unnamedplus
 set mouse=a
 set numberwidth=1
 syntax enable
@@ -22,7 +22,7 @@ set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
 set softtabstop=0 expandtab shiftwidth=4 smarttab
-set autoindent
+"set autoindent
 
 call plug#begin('~/.vim/plugged')
 
@@ -44,13 +44,17 @@ Plug 'rhysd/vim-clang-format'
 Plug 'prettier/vim-prettier',{
             \ 'do': 'yarn install',
             \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html']}
+"Auto completion
+Plug 'maxboisvert/vim-simple-complete'
+Plug 'tpope/vim-fugitive',
 "Themes plugins
 Plug 'sonph/onehalf', { 'rtp':'vim'}
 Plug 'morhetz/gruvbox'
-Plug 'ycm-core/YouCompleteMe'
 Plug 'dgraham/vim-eslint'
 "Plugins for PHP
 Plug 'StanAngeloff/php.vim'
+"Python auto-indentation
+Plug 'vim-scripts/indentpython.vim'
 call plug#end()
 
 "gruvbox
