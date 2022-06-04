@@ -16,7 +16,7 @@ So thought that HDMI is linked only to NVIDIA and main laptop monitor can only b
 - Install ```xf86-intel-video``` drivers
 - Configure ```# nvidia-xconfig```
 
-(Little update) All time HDMI automatically was set as primary -didn't matter if I just changed to be laptop monitor/eDP1 as primary, xrandr just didn't care and I wasn't able to see anything in display when just using the laptop, even when HDMI wasn't connected- but commenting this line in ```xorg.conf``` ```#    Device         "Device0"``` and adding another ```Monitor``` section (and giving a name/identifier to both ```Monitor``` sections) fixed, so related sections look like this:
+(Little update) All time HDMI automatically was set as primary -didn't matter if I just changed to be laptop monitor/eDP1 as primary, xrandr just didn't care and I wasn't able to see anything in display when just using the laptop, even when HDMI wasn't connected- but commenting this line in ```xorg.conf``` ```#    Device         "Device0"``` and adding another ```Monitor``` section (and giving a name/identifier to both ```Monitor``` sections) fixed the issue, so related sections look like this:
 ```
 Section "Monitor"
     Identifier     "eDP1"
