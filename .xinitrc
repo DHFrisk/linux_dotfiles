@@ -60,8 +60,8 @@ nitrogen --restore &
 # then just restart cron service
 
 # the following are settings for feh image visualizer
-#feh --bg-center --no-fehbg ~/Pictures/webb-telescope-image-1.png # webb-telescope-image-1.png
-#feh --bg-fill --no-fehbg /home/frisk/Pictures/New_Kang_Inkyung/DJAWA\ Photo\ -\ Kang\ In-kyung\ \(강인경\)\ -\ “Masked\ Pirate”/DJAWA-Photo-Kang-In-kyung-Masked-Pirate-\ \(16\).jpg
+#feh --bg-center --no-fehbg /path/to/directory/picture.png
+#feh --bg-fill --no-fehbg /path/to/directory/picture.jpg
 
 # Fire up screensaver
 xscreensaver -no-splash &
