@@ -1,0 +1,1 @@
+/home/frisk/.config/xmonad/xmonad.hs
